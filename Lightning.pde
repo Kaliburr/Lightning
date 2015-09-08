@@ -22,6 +22,9 @@ void draw()
 }
 void mousePressed()
 {
-
+	startX=0;
+	startY=(int)(Math.random()*200)+60;
+	endX=0;
+	endY=150;
 }
 
